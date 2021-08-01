@@ -17,7 +17,7 @@ function _createModal(options) {
               : ""
           }
         </div>
-        <div class="modal-body">
+        <div class="modal-body" data-content>
           ${options.content || ""}
         </div>
         <div class="modal-footer">
@@ -70,6 +70,9 @@ $.modal = function (options) {
       $modal.parentNode.removeChild($modal);
       $modal.removeEventListener(listener);
       destoryed = true;
+    },
+    setContent(html) {
+      $modal.querySelector("[data-content]").innerHTML = html;
     },
   });
 };

@@ -21,6 +21,8 @@ Timecode:
 
 5. [`setContent()`](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1108)
 
+6. [Кнопки модалки (футер)](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1208)
+
 ---
 
 > ### Для клонирования этой ветки:
