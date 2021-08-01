@@ -19,6 +19,33 @@ const fruits = [
   },
 ];
 
+const toHTML = (fruit) => {
+  return `
+    <div class="col">
+      <div class="card">
+        <img
+          src="${fruit.img}"
+          class="card-img-top"
+          style="height: 250px; width: auto"
+          alt="${fruit.title}"
+        />
+        <div class="card-body">
+          <h5 class="card-title">${fruit.title}</h5>
+          <a href="#" class="btn btn-primary">Посмотреть цену</a>
+          <a href="#" class="btn btn-danger">Удалить</a>
+        </div>
+      </div>
+    </div>
+  `;
+};
+
+function render() {
+  const html = fruits.map(toHTML).join("");
+  document.querySelector("#fruits").innerHTML = html;
+}
+
+render();
+
 const modal = $.modal({
   title: "Vladilen Modal",
   closable: true,
