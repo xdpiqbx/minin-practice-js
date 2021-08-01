@@ -22,7 +22,9 @@ Timecode:
 
 6. [Взаимодействие: `close`, `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1698)
 
-7. [Описываем `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1818)
+7. [Описываем: `close`, `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1818)
+
+8. [Анимация: `close`, `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1897)
 
 ---
 
