@@ -18,9 +18,15 @@ Timecode:
 
 4. [Переходим к созданию плагина](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1172)
 
+5. [function `_createModal()`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1402)
+
+6. [Взаимодействие: `close`, `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1698)
+
+7. [Описываем `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1818)
+
 ---
 
-> ### Для клонирования определённой ветки:
+> ### Для клонирования этой ветки:
 
 ```code
 git clone https://github.com/xdpiqbx/minin-practice-js.git -b 001-modal-clear-js-css .
@@ -35,3 +41,7 @@ git clone https://github.com/xdpiqbx/minin-practice-js.git -b 001-modal-clear-js
 `'001-modal-clear-js-css'` - название ветки которую клонирую
 
 `'.'` - (точка) в текущую папку
+
+---
+
+_P.S. Репозиторий просто по фану. Спасибо Владилену за его работу._
