@@ -14,21 +14,12 @@ Timecode:
 
 2. [Закрыли базовые опции, начинаем обрабатывать](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=207)
 
-3. [Первый запуск с параметрами](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=458)
+3. [Закрываем модалку](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=565)
 
-4. [Переходим к созданию плагина](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1172)
+4. [`destroy()`](https://youtu.be/BmxD74C3rCs?
+   list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=863)
 
-5. [function `_createModal()`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1402)
-
-6. [Взаимодействие: `close`, `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1698)
-
-7. [Описываем: `close`, `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1818)
-
-8. [Анимация: `close`, `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1897)
-
-9. [Анимация: `close`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2197)
-
-10. [Завершение и домашнее задание](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2504)
+5. [`setContent()`](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1108)
 
 ---
 

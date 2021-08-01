@@ -5,13 +5,17 @@ function _createModal(options) {
   modal.insertAdjacentHTML(
     "afterbegin",
     `
-    <div class="modal-overlay">
+    <div class="modal-overlay" data-close="true">
       <div class="modal-window" style="width: ${
         options.width || DEFAULT_WIDTH
       }">
         <div class="modal-header">
           <span class="modal-title">${options.title || "Окно"}</span>
-          ${options.closable ? '<span class="modal-close">&times;</span>' : ""}
+          ${
+            options.closable
+              ? '<span class="modal-close" data-close="true">&times;</span>'
+              : ""
+          }
         </div>
         <div class="modal-body">
           ${options.content || ""}
@@ -32,8 +36,13 @@ $.modal = function (options) {
   const ANIMATION_SPEED = 200;
   const $modal = _createModal(options);
   let closing = false;
-  return {
+  let destoryed = false;
+
+  const modal = {
     open() {
+      if (destoryed) {
+        return console.log("Modal is destroyed");
+      }
       !closing && $modal.classList.add("open");
     },
     close() {
@@ -45,6 +54,22 @@ $.modal = function (options) {
         closing = false;
       }, ANIMATION_SPEED);
     },
-    destroy() {},
   };
+
+  const listener = (event) => {
+    const { target } = event;
+    if (target.dataset.close) {
+      modal.close();
+    }
+  };
+
+  $modal.addEventListener("click", listener);
+
+  return Object.assign(modal, {
+    destroy() {
+      $modal.parentNode.removeChild($modal);
+      $modal.removeEventListener(listener);
+      destoryed = true;
+    },
+  });
 };
