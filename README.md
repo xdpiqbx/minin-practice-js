@@ -25,6 +25,8 @@ Timecode:
 
 7. [Card для массива fruits](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1953)
 
+8. [Домашнее задание](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2147)
+
 ---
 
 > ### Для клонирования этой ветки:
