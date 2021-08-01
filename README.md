@@ -26,6 +26,10 @@ Timecode:
 
 8. [Анимация: `close`, `open`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1897)
 
+9. [Анимация: `close`](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2197)
+
+10. [Завершение и домашнее задание](https://youtu.be/FX2fiUvrYP4?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2504)
+
 ---
 
 > ### Для клонирования этой ветки:
