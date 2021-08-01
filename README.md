@@ -23,6 +23,8 @@ Timecode:
 
 6. [Кнопки модалки (футер)](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1208)
 
+7. [Card для массива fruits](https://youtu.be/BmxD74C3rCs?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1953)
+
 ---
 
 > ### Для клонирования этой ветки:
