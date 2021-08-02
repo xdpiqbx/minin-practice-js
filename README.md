@@ -14,6 +14,8 @@ Timecode:
 
 2. [Модалка, показать цену](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=384)
 
+3. [Теперь создаём нормальную модалку](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=592)
+
 ---
 
 > ### Для клонирования этой ветки:
