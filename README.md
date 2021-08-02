@@ -22,7 +22,9 @@ Timecode:
 
 6. [Используем `confirm`](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1370)
 
-7. [Избавляемся от лишних елеентов в DOM дереве](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1527)
+7. [Избавляемся от лишних модалок в DOM дереве](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1527)
+
+8. [Динамическое удаление елементов](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1648)
 
 ---
 

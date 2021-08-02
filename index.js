@@ -1,4 +1,4 @@
-const fruits = [
+let fruits = [
   {
     id: 1,
     title: "Яблоки",
@@ -136,6 +136,8 @@ document.addEventListener("click", (event) => {
     })
       .then(() => {
         console.log("Remove");
+        fruits = fruits.filter((fruit) => fruit.id !== id);
+        render();
       })
       .catch(() => {
         console.log("Cancel");
