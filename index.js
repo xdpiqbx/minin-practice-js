@@ -31,7 +31,7 @@ const toHTML = (fruit) => {
         />
         <div class="card-body">
           <h5 class="card-title">${fruit.title}</h5>
-          <a href="#" class="btn btn-primary" data-btn="price">Посмотреть цену</a>
+          <a href="#" class="btn btn-primary" data-btn="price" data-id="${fruit.id}">Посмотреть цену</a>
           <a href="#" class="btn btn-danger">Удалить</a>
         </div>
       </div>
@@ -46,29 +46,46 @@ function render() {
 
 render();
 
-const modal = $.modal({
-  title: "Vladilen Modal",
+// Было
+// const modal = $.modal({
+//   title: "Цена на товар",
+//   closable: true,
+//   content: `
+//     <h4>Modal is working</h4>
+//     <p>Lorem ipsum dolor sit.</p>
+//   `,
+//   width: "400px",
+//   footerButtons: [
+//     {
+//       text: "Ок",
+//       type: "primary",
+//       handler() {
+//         console.log("Primary btn clicked");
+//         modal.close();
+//       },
+//     },
+//     {
+//       text: "Cancel",
+//       type: "danger",
+//       handler() {
+//         console.log("Danger btn clicked");
+//         modal.close();
+//       },
+//     },
+//   ],
+// });
+
+//Стало
+const priceModal = $.modal({
+  title: "Цена на товар",
   closable: true,
-  content: `
-    <h4>Modal is working</h4>
-    <p>Lorem ipsum dolor sit.</p>
-  `,
   width: "400px",
   footerButtons: [
     {
       text: "Ок",
       type: "primary",
       handler() {
-        console.log("Primary btn clicked");
-        modal.close();
-      },
-    },
-    {
-      text: "Cancel",
-      type: "danger",
-      handler() {
-        console.log("Danger btn clicked");
-        modal.close();
+        priceModal.close();
       },
     },
   ],
@@ -77,8 +94,12 @@ const modal = $.modal({
 document.addEventListener("click", (event) => {
   event.preventDefault();
   const btnType = event.target.dataset.btn;
+  const id = parseInt(event.target.dataset.id);
   if (btnType === "price") {
-    console.log("price");
-    modal.open();
+    const fruit = fruits.find((fruit) => fruit.id === id);
+    priceModal.setContent(`
+      <p>Цена на ${fruit.title}: <strong>${fruit.price} $</strong></p>
+    `);
+    priceModal.open();
   }
 });

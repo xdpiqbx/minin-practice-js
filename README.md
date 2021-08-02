@@ -16,6 +16,8 @@ Timecode:
 
 3. [Теперь создаём нормальную модалку](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=592)
 
+4. [Начинаем confirm](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=907)
+
 ---
 
 > ### Для клонирования этой ветки:
