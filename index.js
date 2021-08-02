@@ -91,27 +91,29 @@ const priceModal = $.modal({
   ],
 });
 
-const confirmModal = $.modal({
-  title: "Вы уверены?",
-  closable: true,
-  width: "400px",
-  footerButtons: [
-    {
-      text: "Отменить",
-      type: "secondary",
-      handler() {
-        confirmModal.close();
-      },
-    },
-    {
-      text: "Удалить",
-      type: "danger",
-      handler() {
-        confirmModal.close();
-      },
-    },
-  ],
-});
+// Как в handler() передать id кнопки на которую нажал?
+// создаю plugin confirm.js
+// const confirmModal = $.modal({
+//   title: "Вы уверены?",
+//   closable: true,
+//   width: "400px",
+//   footerButtons: [
+//     {
+//       text: "Отменить",
+//       type: "secondary",
+//       handler() {
+//         confirmModal.close();
+//       },
+//     },
+//     {
+//       text: "Удалить",
+//       type: "danger",
+//       handler() {
+//         confirmModal.close();
+//       },
+//     },
+//   ],
+// });
 
 document.addEventListener("click", (event) => {
   event.preventDefault();
@@ -124,9 +126,19 @@ document.addEventListener("click", (event) => {
     `);
     priceModal.open();
   } else if (btnType === "remove") {
-    confirmModal.setContent(`
-      <p>Вы удаляете фрукт: <strong>${fruit.title}</strong></p>
-    `);
-    confirmModal.open();
+    // confirmModal.setContent(`
+    //   <p>Вы удаляете фрукт: <strong>${fruit.title}</strong></p>
+    // `);
+    // confirmModal.open();
+    $.confirm({
+      title: "Вы уверены?",
+      content: `<p>Вы удаляете фрукт: <strong>${fruit.title}</strong></p>`,
+    })
+      .then(() => {
+        console.log("Remove");
+      })
+      .catch(() => {
+        console.log("Cancel");
+      });
   }
 });
