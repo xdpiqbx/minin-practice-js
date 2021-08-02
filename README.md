@@ -16,11 +16,13 @@ Timecode:
 
 3. [Теперь создаём нормальную модалку](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=592)
 
-4. [Начинаем confirm](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=907)
+4. [Начинаем `confirm`](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=907)
+
+5. [Создаём плагин `confirm`](https://youtu.be/GVGq0iy8GQE?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1151)
 
 ---
 
-> ### Для клонирования этой ветки:
+> ### Для клонирования этой ветки
 
 ```code
 git clone https://github.com/xdpiqbx/minin-practice-js.git -b 003-modal-promise .
