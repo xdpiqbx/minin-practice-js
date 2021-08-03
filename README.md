@@ -1,14 +1,35 @@
 # Практика JavaScript
 
-[Канал Владилена Минина](https://www.youtube.com/c/VladilenMinin)
+## [Канал Владилена Минина](https://www.youtube.com/c/VladilenMinin)
 
-[Плейлист: Практика JavaScript](https://www.youtube.com/playlist?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M)
+## [Плейлист: Практика JavaScript](https://www.youtube.com/playlist?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M)
 
 ---
-Код и таймкоды для уроков:
 
-[Модальное окно на ЧИСТОМ JS + CSS. Урок 1](https://github.com/xdpiqbx/minin-practice-js/tree/001-modal-clear-js-css)
+### [Пишем приложение на голом JS с авторизацией без фреймворков](https://www.youtube.com/watch?v=KS2ngnRAKlg&list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&index=4)
 
-[Модальное окно JS. События, Прототипы, Замыкания. Урок 2](https://github.com/xdpiqbx/minin-practice-js/tree/002-modal-events-proto-closures)
+Timecode:
 
-[Модальное окно JS. Promise, Делегирование событий. Урок 3](https://github.com/xdpiqbx/minin-practice-js/tree/003-modal-promise)
+1. [Начинаем](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=105)
+
+---
+
+> ### Для клонирования этой ветки
+
+```code
+git clone https://github.com/xdpiqbx/minin-practice-js.git -b 004-app-pure-js-auth .
+```
+
+`'git clone'` - клонирую
+
+`'https://github.com/xdpiqbx/minin-practice-js.git'` - ссылка на репозиторий
+
+`'-b'` - (branch) ветку
+
+`'004-app-pure-js-auth'` - название ветки которую клонирую
+
+`'.'` - (точка) в текущую папку
+
+---
+
+_P.S. Репозиторий просто по фану. Спасибо Владилену за его работу._
