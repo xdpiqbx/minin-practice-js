@@ -28,6 +28,8 @@ Timecode:
 
 9. [Начинаем писать JS](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1663)
 
+10. [Начинаем работать наб БД Firebase](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2280)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
