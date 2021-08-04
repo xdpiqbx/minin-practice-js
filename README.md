@@ -36,6 +36,8 @@ Timecode:
 
 13. [Рендерим вопросы из `localstorage`](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3303)
 
+14. [Авторизация и посмотреть все вопросы (кнопка ВСЕ)](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3737)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
