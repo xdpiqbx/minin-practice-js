@@ -30,6 +30,8 @@ Timecode:
 
 10. [Начинаем работать наб БД Firebase](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2280)
 
+11. [Создаём класс `Questions`](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2484)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
@@ -47,6 +49,8 @@ Timecode:
 ### [Webpack css-loader on Webpack.js.org](https://webpack.js.org/loaders/css-loader/)
 
 ### [Webpack style-loader on Webpack.js.org](https://webpack.js.org/loaders/style-loader/#root)
+
+### [Firebase.google.com](https://firebase.google.com/)
 
 ---
 
