@@ -22,6 +22,10 @@ Timecode:
 
 6. [MUI CSS](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=990)
 
+7. [Webpack css-loader and style-loader](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1209)
+
+8. [Как будем строить приложение](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1375)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
@@ -36,6 +40,10 @@ Timecode:
 
 ### [MUI CSS](https://www.muicss.com/)
 
+### [Webpack css-loader on Webpack.js.org](https://webpack.js.org/loaders/css-loader/)
+
+### [Webpack style-loader on Webpack.js.org](https://webpack.js.org/loaders/style-loader/#root)
+
 ---
 
 ### Команды
@@ -48,6 +56,8 @@ npm install -D webpack webpack-cli webpack-dev-server
 npm install -D html-webpack-plugin
 
 npm install -D clean-webpack-plugin
+
+npm install -D style-loader css-loader
 ```
 
 ---
