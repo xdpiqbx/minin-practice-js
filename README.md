@@ -32,6 +32,10 @@ Timecode:
 
 11. [Создаём класс `Questions`](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2484)
 
+12. [Локальное сохранение вопросов в `localstorage`](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2953)
+
+13. [Рендерим вопросы из `localstorage`](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3303)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
