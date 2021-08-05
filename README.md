@@ -28,7 +28,7 @@ Timecode:
 
 9. [Начинаем писать JS](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1663)
 
-10. [Начинаем работать наб БД Firebase](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2280)
+10. [Начинаем работать над БД Firebase](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2280)
 
 11. [Создаём класс `Questions`](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2484)
 
@@ -43,6 +43,8 @@ Timecode:
 16. [Делаем форму для авторизации в модалке](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=4293)
 
 17. [Делаем полноценную авторизацию через Firebase](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=4659)
+
+18. [Защищаем данные](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=5278)
 
 ---
 
@@ -63,6 +65,8 @@ Timecode:
 ### [Webpack style-loader on Webpack.js.org](https://webpack.js.org/loaders/style-loader/#root)
 
 ### [Firebase.google.com](https://firebase.google.com/)
+
+### [Firebase Auth REST API (sign in with email / password)](https://firebase.google.com/docs/reference/rest/auth#section-sign-in-email-password)
 
 ---
 

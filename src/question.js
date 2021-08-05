@@ -16,6 +16,12 @@ export class Question {
       .then(Question.renderList);
   }
 
+  static fetch(token) {
+    return fetch(`${FIREBASE_DB_URL}/questions.json`)
+      .then((response) => response.json())
+      .then((questions) => console.log(questions));
+  }
+
   static renderList() {
     const questions = getQuesionsFromLocalstorage();
     const html = questions.length

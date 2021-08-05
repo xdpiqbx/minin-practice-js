@@ -1,3 +1,5 @@
+import { FIREBASE_APP_API_KEY } from "../env_vars";
+
 export function getAuthForm() {
   return `
   <form class="mui-form" id="auth-form">
@@ -27,4 +29,20 @@ export function getAuthForm() {
   </button>
   </form>
   `;
+}
+
+export function authWidthEmailAndPassword(email, password) {
+  const baseURL = "https://identitytoolkit.googleapis.com";
+  return fetch(
+    `${baseURL}/v1/accounts:signInWithPassword?key=${FIREBASE_APP_API_KEY}`,
+    {
+      method: "POST",
+      body: JSON.stringify({ email, password, returnSecureToken: true }),
+      headers: {
+        "Content-type": "application/json",
+      },
+    }
+  )
+    .then((response) => response.json())
+    .then((data) => data.idToken);
 }

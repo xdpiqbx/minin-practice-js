@@ -1,6 +1,6 @@
 import { Question } from "./question";
 import { createModal, isValid } from "./utils";
-import { getAuthForm } from "./auth";
+import { getAuthForm, authWidthEmailAndPassword } from "./auth";
 import "./styles.css";
 
 const modalBtn = document.getElementById("modal-btn");
@@ -50,4 +50,5 @@ function authFormHandler(event) {
   const email = event.target.email.value;
   const password = event.target.password.value;
   console.log({ email, password });
+  authWidthEmailAndPassword(email, password).then(Question.fetch);
 }
