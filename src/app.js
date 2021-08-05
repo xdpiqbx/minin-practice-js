@@ -41,6 +41,8 @@ function openModal() {
 
 function authFormHandler(event) {
   event.preventDefault();
+  const btn = event.target.querySelector("button");
+  btn.disabled = true;
   // const email = event.target.querySelector("#email").value;
   // const password = event.target.querySelector("#password").value;
 
@@ -52,7 +54,10 @@ function authFormHandler(event) {
   console.log({ email, password });
   authWidthEmailAndPassword(email, password)
     .then(Question.fetch)
-    .then(renderModalAfterAuth);
+    .then(renderModalAfterAuth)
+    .then(() => {
+      btn.disabled = false;
+    });
 }
 
 function renderModalAfterAuth(content) {

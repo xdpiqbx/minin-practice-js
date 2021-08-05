@@ -22,7 +22,14 @@ export class Question {
     }
     return fetch(`${FIREBASE_DB_URL}/questions.json?auth=${token}`)
       .then((response) => response.json())
-      .then((questions) => console.log(questions));
+      .then((response) => {
+        if (response.error) {
+          return `<p class='error'>${response.error}</p>`;
+        }
+        return response
+          ? Object.keys(response).map((key) => ({ ...response[key], id: key }))
+          : [];
+      });
   }
 
   static renderList() {
