@@ -23,7 +23,7 @@ export class Question {
     return fetch(`${FIREBASE_DB_URL}/questions.json?auth=${token}`)
       .then((response) => response.json())
       .then((response) => {
-        if (response.error) {
+        if (response && response.error) {
           return `<p class='error'>${response.error}</p>`;
         }
         return response
