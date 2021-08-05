@@ -1,5 +1,6 @@
 import { Question } from "./question";
 import { createModal, isValid } from "./utils";
+import { getAuthForm } from "./auth";
 import "./styles.css";
 
 const modalBtn = document.getElementById("modal-btn");
@@ -32,5 +33,21 @@ function submitEventHandler(event) {
 }
 
 function openModal() {
-  createModal("Авторизация", "<h1>Test</h1>");
+  createModal("Авторизация", getAuthForm());
+  document
+    .getElementById("auth-form")
+    .addEventListener("submit", authFormHandler, { once: true });
+}
+
+function authFormHandler(event) {
+  event.preventDefault();
+  // const email = event.target.querySelector("#email").value;
+  // const password = event.target.querySelector("#password").value;
+
+  // Если Вы задали инпутам аттрибуты name
+  // name="email" и соответственно name="password"
+  // то можно лишний раз не вызывать querySelector
+  const email = event.target.email.value;
+  const password = event.target.password.value;
+  console.log({ email, password });
 }

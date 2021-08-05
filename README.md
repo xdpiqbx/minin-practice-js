@@ -42,6 +42,8 @@ Timecode:
 
 16. [Делаем форму для авторизации в модалке](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=4293)
 
+17. [Делаем полноценную авторизацию через Firebase](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=4659)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
