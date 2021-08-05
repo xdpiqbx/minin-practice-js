@@ -38,6 +38,10 @@ Timecode:
 
 14. [Авторизация и посмотреть все вопросы (кнопка ВСЕ)](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3737)
 
+15. [Делаем модалку на кнопку ВСЕ](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3849)
+
+16. [Делаем форму для авторизации в модалке](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=4293)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
