@@ -1,16 +1,54 @@
 # Практика JavaScript
 
-[Канал Владилена Минина](https://www.youtube.com/c/VladilenMinin)
+## [Канал Владилена Минина](https://www.youtube.com/c/VladilenMinin)
 
-[Плейлист: Практика JavaScript](https://www.youtube.com/playlist?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M)
+## [Плейлист: Практика JavaScript](https://www.youtube.com/playlist?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M)
 
 ---
-Код и таймкоды для уроков:
 
-[Модальное окно на ЧИСТОМ JS + CSS. Урок 1](https://github.com/xdpiqbx/minin-practice-js/tree/001-modal-clear-js-css)
+### [Практика JavaScript. Создаем плагин Select с нуля](https://www.youtube.com/watch?v=35va4OY7Y1c&list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&index=5)
 
-[Модальное окно JS. События, Прототипы, Замыкания. Урок 2](https://github.com/xdpiqbx/minin-practice-js/tree/002-modal-events-proto-closures)
+Timecode:
 
-[Модальное окно JS. Promise, Делегирование событий. Урок 3](https://github.com/xdpiqbx/minin-practice-js/tree/003-modal-promise)
+1. [Начинаем](https://www.youtube.com/watch?v=35va4OY7Y1c&list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&index=5)
 
-[Пишем приложение на голом JS с авторизацией без фреймворков](https://github.com/xdpiqbx/minin-practice-js/tree/004-app-pure-js-auth)
+2. [index.html](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=97)
+
+3. [Сборщик Parcel](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=137)
+
+4. [Начинаем писать JS](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=201)
+
+---
+
+### [Parceljs.org](https://parceljs.org/)
+
+---
+
+### Команды
+
+```code
+npm init -y
+npm install -D parcel-bundler
+```
+
+---
+
+> ### Для клонирования этой ветки
+
+```code
+git clone https://github.com/xdpiqbx/minin-practice-js.git -b 005-custom-select .
+```
+
+`'git clone'` - клонирую
+
+`'https://github.com/xdpiqbx/minin-practice-js.git'` - ссылка на репозиторий
+
+`'-b'` - (branch) ветку
+
+`'005-custom-select'` - название ветки которую клонирую
+
+`'.'` - (точка) в текущую папку
+
+---
+
+_P.S. Репозиторий просто по фану. Спасибо Владилену за его работу._
