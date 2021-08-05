@@ -52,6 +52,14 @@ Timecode:
 
 21. [Тестируем!](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=6120)
 
+> Перед деплоем надо сделать `npm run build`
+
+22. [Деплой](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=6243)
+
+```code
+Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+```
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
@@ -88,6 +96,8 @@ npm install -D html-webpack-plugin
 npm install -D clean-webpack-plugin
 
 npm install -D style-loader css-loader
+
+npm install -g firebase-tools
 ```
 
 ---
