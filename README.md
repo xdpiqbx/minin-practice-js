@@ -12,3 +12,5 @@
 [Модальное окно JS. События, Прототипы, Замыкания. Урок 2](https://github.com/xdpiqbx/minin-practice-js/tree/002-modal-events-proto-closures)
 
 [Модальное окно JS. Promise, Делегирование событий. Урок 3](https://github.com/xdpiqbx/minin-practice-js/tree/003-modal-promise)
+
+[Пишем приложение на голом JS с авторизацией без фреймворков](https://github.com/xdpiqbx/minin-practice-js/tree/004-app-pure-js-auth)
