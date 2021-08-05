@@ -41,6 +41,12 @@ export class Question {
     const list = document.getElementById("list");
     list.innerHTML = html;
   }
+
+  static listToHTML(questions) {
+    return questions.length
+      ? `<ol>${questions.map((q) => `<li>${q.text}</li>`).join("")}</ol>`
+      : `<p>Вопростов пока нет</p>`;
+  }
 }
 
 function addToLocalstorage(question) {

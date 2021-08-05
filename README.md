@@ -50,6 +50,8 @@ Timecode:
 
 20. [Рендер модального окна с вопросами](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=5884)
 
+21. [Тестируем!](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=6120)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)
