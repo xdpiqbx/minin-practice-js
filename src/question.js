@@ -17,7 +17,10 @@ export class Question {
   }
 
   static fetch(token) {
-    return fetch(`${FIREBASE_DB_URL}/questions.json`)
+    if (!token) {
+      return Promise.resolve("<p class='error'>У Вас нет токена</p>");
+    }
+    return fetch(`${FIREBASE_DB_URL}/questions.json?auth=${token}`)
       .then((response) => response.json())
       .then((questions) => console.log(questions));
   }

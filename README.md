@@ -46,6 +46,8 @@ Timecode:
 
 18. [Защищаем данные](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=5278)
 
+19. [Парсим вопросы (ответ с сервера)](https://youtu.be/KS2ngnRAKlg?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=5521)
+
 ---
 
 ### [Webpack.js.org](https://webpack.js.org/guides/getting-started/)

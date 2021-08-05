@@ -50,5 +50,11 @@ function authFormHandler(event) {
   const email = event.target.email.value;
   const password = event.target.password.value;
   console.log({ email, password });
-  authWidthEmailAndPassword(email, password).then(Question.fetch);
+  authWidthEmailAndPassword(email, password)
+    .then(Question.fetch)
+    .then(renderModalAfterAuth);
+}
+
+function renderModalAfterAuth(content) {
+  console.log(content);
 }
