@@ -28,6 +28,12 @@ Timecode:
 
 9. [Начинаем писать клас Select](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1367)
 
+10. [Переносим шаблон Select в JS](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1636)
+
+11. [Добавляем слушателей по клику](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1842)
+
+12. [Добавляем опции для Select](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2336)
+
 ---
 
 ### [Parceljs.org](https://parceljs.org/)
