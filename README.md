@@ -34,6 +34,16 @@ Timecode:
 
 12. [Добавляем опции для Select](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2336)
 
+13. [Реализация выбора конкретного елемента селекта](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2798)
+
+14. [Опция Selected по умолчанию](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3187)
+
+15. [Заканчиваем destroy](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3357)
+
+16. [Закрыть по клику вне select](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3394)
+
+17. [Показать какой елемент выбран](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3654)
+
 ---
 
 ### [Parceljs.org](https://parceljs.org/)
