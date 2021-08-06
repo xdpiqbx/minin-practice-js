@@ -18,9 +18,23 @@ Timecode:
 
 4. [Начинаем писать JS](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=201)
 
+5. [Начинаем писать функционал для Select](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=503)
+
+6. [Подключем шрифты](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=720)
+
+7. [Верстаем dropdown](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=768)
+
+8. [Добавляем иконку Font Awesome](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1252)
+
+9. [Начинаем писать клас Select](https://youtu.be/35va4OY7Y1c?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1367)
+
 ---
 
 ### [Parceljs.org](https://parceljs.org/)
+
+### [Roboto font](https://fonts.google.com/specimen/Roboto)
+
+### [Font Awesome](https://fontawesome.com/)
 
 ---
 
@@ -29,6 +43,7 @@ Timecode:
 ```code
 npm init -y
 npm install -D parcel-bundler
+npm install -D sass
 ```
 
 ---
