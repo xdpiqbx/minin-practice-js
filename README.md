@@ -14,3 +14,5 @@
 [Модальное окно JS. Promise, Делегирование событий. Урок 3](https://github.com/xdpiqbx/minin-practice-js/tree/003-modal-promise)
 
 [Пишем приложение на голом JS с авторизацией без фреймворков](https://github.com/xdpiqbx/minin-practice-js/tree/004-app-pure-js-auth)
+
+[Практика JavaScript. Создаем плагин Select с нуля](https://github.com/xdpiqbx/minin-practice-js/tree/005-custom-select)
