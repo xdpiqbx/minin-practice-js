@@ -11,10 +11,11 @@
 Timecode:
 
 1. [Начинаем](https://www.youtube.com/watch?v=35va4OY7Y1c&list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&index=5)
+2. [Сам плагин](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=819)
 
 ---
 
-### [-----](https://---.---/)
+### [Parceljs.org](https://parceljs.org/getting_started.html)
 
 ---
 
@@ -22,6 +23,7 @@ Timecode:
 
 ```code
 npm init -y
+npm install -D parcel-bundler
 ```
 
 ---
