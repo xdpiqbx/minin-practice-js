@@ -32,6 +32,8 @@ Timecode:
 ```code
 npm init -y
 npm install -D parcel-bundler
+npm i firebase
+npm install --save firebase
 ```
 
 ---
