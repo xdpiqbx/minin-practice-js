@@ -17,6 +17,7 @@ Timecode:
 5. [Обрабатываем нажатие на крестик](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3126)
 6. [Делаем кнопку загрузить](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3747)
 7. [Начинаем загрузку файлов на сервер](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=4048)
+8. [Соединяем с реальной базой](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=4420)
 
 ---
 
