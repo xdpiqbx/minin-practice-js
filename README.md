@@ -12,6 +12,9 @@ Timecode:
 
 1. [Начинаем](https://www.youtube.com/watch?v=35va4OY7Y1c&list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&index=5)
 2. [Сам плагин](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=819)
+3. [Пишем changeHandler](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1592)
+4. [Регулируем количество загружаемых картинок](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2402)
+5. [обрабатываем нажатие на крестик](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3126)
 
 ---
 
