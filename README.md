@@ -11,6 +11,7 @@ Timecode:
 1. [Начинаем](https://youtu.be/0ViiJ8qTCFM?t=93)
 2. [Начинаем JS](https://youtu.be/0ViiJ8qTCFM?t=645)
 3. [Формируем HTML для объекта](https://youtu.be/0ViiJ8qTCFM?t=923)
+4. [Добавляем блок с картинкой](https://youtu.be/0ViiJ8qTCFM?t=1641)
 
 ---
 
