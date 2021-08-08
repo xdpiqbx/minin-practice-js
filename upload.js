@@ -12,15 +12,25 @@ function bytesToSize(bytes) {
   return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
 }
 
+const element = (tag, classes = [], content = '') => {
+  const node = document.createElement(tag);
+  if (classes.length > 0) {
+    node.classList.add(...classes);
+  }
+  if (content) {
+    node.textContent = content;
+  }
+  return node;
+};
+
 export function upload(selector = 'filer', options = {}) {
+  let files = [];
   const input = document.querySelector(selector);
-  const preview = document.createElement('div');
 
-  preview.classList.add('preview');
-
-  const open = document.createElement('button');
-  open.classList.add('btn');
-  open.textContent = 'Открыть';
+  const preview = element('div', ['preview']);
+  const open = element('button', ['btn'], 'Открыть');
+  const upload = element('button', ['btn', 'primary'], 'Загрузить');
+  upload.style.display = 'none';
 
   if (options.isMulti) {
     input.setAttribute('multiple', '');
@@ -30,6 +40,7 @@ export function upload(selector = 'filer', options = {}) {
     input.setAttribute('accept', options.accept.join(', '));
   }
   input.insertAdjacentElement('afterend', preview);
+  input.insertAdjacentElement('afterend', upload);
   input.insertAdjacentElement('afterend', open);
 
   const changeHandler = (event) => {
@@ -37,7 +48,10 @@ export function upload(selector = 'filer', options = {}) {
       return;
     }
     // Тут event.target.files - это FileList
-    const files = Array.from(event.target.files);
+    files = Array.from(event.target.files);
+
+    upload.style.display = 'inline';
+
     files.forEach((file) => {
       preview.innerHTML = '';
       if (!file.type.match('image')) {
@@ -50,7 +64,9 @@ export function upload(selector = 'filer', options = {}) {
           'afterbegin',
           `
             <div class="preview-image">
-              <div class="preview-remove">&times;</div>
+              <div class="preview-remove" data-name="${
+                file.name
+              }">&times;</div>
               <img src="${src}" alt="${file.name}">
               <div class="preview-info">
                 <span>${file.name}</span>
@@ -64,6 +80,26 @@ export function upload(selector = 'filer', options = {}) {
     });
   };
 
+  const removeImageHandler = (event) => {
+    if (!event.target.dataset.name) {
+      return;
+    }
+    const { name } = event.target.dataset;
+    files = files.filter((file) => file.name !== name);
+    if (!files.length) {
+      upload.style.display = 'none';
+    }
+    const block = preview
+      .querySelector(`[data-name="${name}"]`)
+      .closest('.preview-image');
+    block.classList.add('removing');
+    setTimeout(() => block.remove(), 250);
+  };
+
+  const uploadHandler = () => {};
+
   open.addEventListener('click', () => input.click());
   input.addEventListener('change', changeHandler);
+  preview.addEventListener('click', removeImageHandler);
+  upload.addEventListener('click', uploadHandler);
 }

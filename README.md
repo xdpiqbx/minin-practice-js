@@ -14,11 +14,15 @@ Timecode:
 2. [Сам плагин](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=819)
 3. [Пишем changeHandler](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=1592)
 4. [Регулируем количество загружаемых картинок](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=2402)
-5. [обрабатываем нажатие на крестик](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3126)
+5. [Обрабатываем нажатие на крестик](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3126)
+6. [Делаем кнопку загрузить](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=3747)
+7. [Начинаем загрузку файлов на сервер](https://youtu.be/5vx2PVClSVU?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M&t=4048)
 
 ---
 
 ### [Parceljs.org](https://parceljs.org/getting_started.html)
+
+### [File Reader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
 
 ---
 

@@ -71,6 +71,11 @@ input[type='file'] {
   overflow: hidden;
 }
 
+.preview-image.removing {
+  transform: scale(0);
+  transition: transform 300ms;
+}
+
 .preview-image:hover .preview-remove {
   opacity: 1;
 }
