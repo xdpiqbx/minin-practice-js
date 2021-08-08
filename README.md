@@ -1,18 +1,43 @@
 # Практика JavaScript
 
-[Канал Владилена Минина](https://www.youtube.com/c/VladilenMinin)
-
-[Плейлист: Практика JavaScript](https://www.youtube.com/playlist?list=PLqKQF2ojwm3n-ufn3E-l6Y0VxDrj3hM5M)
+## [Канал Владилена Минина](https://www.youtube.com/c/VladilenMinin)
 
 ---
-Код и таймкоды для уроков:
 
-[Модальное окно на ЧИСТОМ JS + CSS. Урок 1](https://github.com/xdpiqbx/minin-practice-js/tree/001-modal-clear-js-css)
+### [Конструктор сайтов на чистом JavaScript за 2 часа](https://www.youtube.com/watch?v=0ViiJ8qTCFM)
 
-[Модальное окно JS. События, Прототипы, Замыкания. Урок 2](https://github.com/xdpiqbx/minin-practice-js/tree/002-modal-events-proto-closures)
+Timecode:
 
-[Модальное окно JS. Promise, Делегирование событий. Урок 3](https://github.com/xdpiqbx/minin-practice-js/tree/003-modal-promise)
+1. [Начинаем](https://youtu.be/0ViiJ8qTCFM?t=93)
 
-[Пишем приложение на голом JS с авторизацией без фреймворков](https://github.com/xdpiqbx/minin-practice-js/tree/004-app-pure-js-auth)
+---
 
-[Практика JavaScript. Создаем плагин Select с нуля](https://github.com/xdpiqbx/minin-practice-js/tree/005-custom-select)
+---
+
+### Команды
+
+```code
+npm init -y
+```
+
+---
+
+> ### Для клонирования этой ветки
+
+```code
+git clone https://github.com/xdpiqbx/minin-practice-js.git -b 007-site-constructor-js .
+```
+
+`'git clone'` - клонирую
+
+`'https://github.com/xdpiqbx/minin-practice-js.git'` - ссылка на репозиторий
+
+`'-b'` - (branch) ветку
+
+`'007-site-constructor-js'` - название ветки которую клонирую
+
+`'.'` - (точка) в текущую папку
+
+---
+
+_P.S. Репозиторий просто по фану. Спасибо Владилену за его работу._
