@@ -13,6 +13,8 @@ Timecode:
 3. [Формируем HTML для объекта](https://youtu.be/0ViiJ8qTCFM?t=923)
 4. [Добавляем блок с картинкой](https://youtu.be/0ViiJ8qTCFM?t=1641)
 5. [Добавляем Parcel](https://youtu.be/0ViiJ8qTCFM?t=1800)
+6. [Меняю структуру проэкта](https://youtu.be/0ViiJ8qTCFM?t=2086)
+7. [Про parcel и режимы сборки](https://youtu.be/0ViiJ8qTCFM?t=2441)
 
 ---
 
