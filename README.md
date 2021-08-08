@@ -16,3 +16,5 @@
 [Пишем приложение на голом JS с авторизацией без фреймворков](https://github.com/xdpiqbx/minin-practice-js/tree/004-app-pure-js-auth)
 
 [Практика JavaScript. Создаем плагин Select с нуля](https://github.com/xdpiqbx/minin-practice-js/tree/005-custom-select)
+
+[Загрузка файлов на CSS и JS с нуля. JavaScript практика](https://github.com/xdpiqbx/minin-practice-js/tree/006-upload-images-with-preview)
