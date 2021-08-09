@@ -15,6 +15,8 @@ Timecode:
 5. [Добавляем Parcel](https://youtu.be/0ViiJ8qTCFM?t=1800)
 6. [Меняю структуру проэкта](https://youtu.be/0ViiJ8qTCFM?t=2086)
 7. [Про parcel и режимы сборки](https://youtu.be/0ViiJ8qTCFM?t=2441)
+8. [Рефактор index.js](https://youtu.be/0ViiJ8qTCFM?t=2588)
+9. [Рефактор templates.js](https://youtu.be/0ViiJ8qTCFM?t=2919)
 
 ---
 
@@ -44,7 +46,8 @@ npm install parcel-bundler --save-dev
 
 ```json
 "scripts": {
-  "start": "parcel index.html --open"
+    "start": "parcel ./src/index.html --open -p 4242",
+    "build": "parcel build ./src/index.html --no-source-maps"
 },
 ```
 

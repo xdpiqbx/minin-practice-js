@@ -1,4 +1,4 @@
-export function title(value) {
+function title(value) {
   return `
     <div class="row">
       <div class="col-sm">
@@ -7,7 +7,7 @@ export function title(value) {
     </div>`;
 }
 
-export function text(value) {
+function text(value) {
   return `
     <div class="row">
       <div class="col-sm">
@@ -16,16 +16,23 @@ export function text(value) {
     </div>`;
 }
 
-export function columns(value) {
+function columns(value) {
   return `
   <div class="row">
     ${value.map((col) => `<div class="col-sm">${col}</div>`).join('')}
   </div>`;
 }
 
-export function image(value) {
+function image(value) {
   return `
   <div class="row">
     <img src="${value}"/>
   </div>`;
 }
+
+export const tplts = {
+  title,
+  text,
+  columns,
+  image,
+};
