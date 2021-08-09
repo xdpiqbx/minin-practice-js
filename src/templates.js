@@ -1,33 +1,19 @@
+import { row, col } from './utils';
+
 function title(value) {
-  return `
-    <div class="row">
-      <div class="col-sm">
-        <h1>${value}</h1>
-      </div>
-    </div>`;
+  return row(col(`<h1>${value}</h1>`));
 }
 
 function text(value) {
-  return `
-    <div class="row">
-      <div class="col-sm">
-        <p>${value}</p>
-      </div>
-    </div>`;
+  return row(col(`<p>${value}</p>`));
 }
 
 function columns(value) {
-  return `
-  <div class="row">
-    ${value.map((col) => `<div class="col-sm">${col}</div>`).join('')}
-  </div>`;
+  return row(value.map(col).join(''));
 }
 
 function image(value) {
-  return `
-  <div class="row">
-    <img src="${value}"/>
-  </div>`;
+  return row(`<img src="${value}"/>`);
 }
 
 export const tplts = {
