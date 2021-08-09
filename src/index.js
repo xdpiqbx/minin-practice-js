@@ -4,7 +4,7 @@ import './styles/main.css';
 
 const $site = document.querySelector('#site');
 
-model.forEach(({ type, value }) => {
+model.forEach(({ type, value, options }) => {
   // switch (block.type) {
   //   case 'title':
   //     html = tplts.title(block.value);
@@ -20,6 +20,9 @@ model.forEach(({ type, value }) => {
   //     break;
   // }
   if (tplts[type]) {
-    $site.insertAdjacentHTML('beforeend', tplts[type](value));
+    $site.insertAdjacentHTML(
+      'beforeend',
+      tplts[type](value, options)
+    );
   }
 });

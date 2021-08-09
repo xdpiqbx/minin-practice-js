@@ -18,6 +18,8 @@ Timecode:
 8. [Рефактор index.js](https://youtu.be/0ViiJ8qTCFM?t=2588)
 9. [Рефактор templates.js](https://youtu.be/0ViiJ8qTCFM?t=2919)
 10. [Добавляем options в модель](https://youtu.be/0ViiJ8qTCFM?t=3208)
+11. [Пишем функцию Css](https://youtu.be/0ViiJ8qTCFM?t=3705)
+12. [Дописать стили (свои или взять из доп мат)](https://youtu.be/0ViiJ8qTCFM?t=3970)
 
 ---
 

@@ -3,7 +3,16 @@ import image from './assets/image.png';
 export const model = [
   {
     type: 'title',
-    value: 'Hello from JS',
+    value: 'Конструктор сайтов на JS',
+    options: {
+      tag: 'h1',
+      styles: {
+        background: 'linear-gradient(to right, #ff0099, #493240)',
+        color: '#fff',
+        'text-align': 'center',
+        padding: '1rem',
+      },
+    },
   },
   {
     type: 'text',

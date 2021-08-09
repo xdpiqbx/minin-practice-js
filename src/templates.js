@@ -1,18 +1,19 @@
-import { row, col } from './utils';
+import { row, col, css } from './utils';
 
-function title(value) {
-  return row(col(`<h1>${value}</h1>`));
+function title(value, options) {
+  const { tag = 'h1', styles } = options;
+  return row(col(`<${tag}>${value}</${tag}>`), css(styles));
 }
 
-function text(value) {
+function text(value, options) {
   return row(col(`<p>${value}</p>`));
 }
 
-function columns(value) {
+function columns(value, options) {
   return row(value.map(col).join(''));
 }
 
-function image(value) {
+function image(value, options) {
   return row(`<img src="${value}"/>`);
 }
 
