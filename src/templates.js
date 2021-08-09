@@ -16,8 +16,11 @@ function columns(value, options) {
 }
 
 function image(value, options) {
-  const { tag = 'h1', styles } = options;
-  return row(`<img src="${value}"/>`, css(styles));
+  const { styles, imageStyles: is, alt = '' } = options;
+  return row(
+    `<img src="${value}" alt="${alt}" style="${css(is)}"/>`,
+    css(styles)
+  );
 }
 
 export const tplts = {

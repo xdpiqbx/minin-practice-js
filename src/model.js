@@ -19,6 +19,22 @@ export const model = [
     },
   },
   {
+    type: 'image',
+    value: image,
+    options: {
+      styles: {
+        padding: '2rem 0',
+        display: 'flex',
+        'justify-content': 'center',
+      },
+      imageStyles: {
+        width: '500px',
+        height: 'auto',
+      },
+      alt: 'Это картинка',
+    },
+  },
+  {
     type: 'text',
     value: text,
     options: {
@@ -43,17 +59,6 @@ export const model = [
         padding: '2rem',
         color: '#fff',
         'font-weight': 'bold',
-      },
-    },
-  },
-  {
-    type: 'image',
-    value: image,
-    options: {
-      styles: {
-        padding: '2rem 0',
-        display: 'flex',
-        'justify-content': 'center',
       },
     },
   },
