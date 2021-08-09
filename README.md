@@ -20,6 +20,7 @@ Timecode:
 10. [Добавляем options в модель](https://youtu.be/0ViiJ8qTCFM?t=3208)
 11. [Пишем функцию Css](https://youtu.be/0ViiJ8qTCFM?t=3705)
 12. [Дописать стили (свои или взять из доп мат)](https://youtu.be/0ViiJ8qTCFM?t=3970)
+13. [Дописать стили для картинки](https://youtu.be/0ViiJ8qTCFM?t=4160)
 
 ---
 
@@ -73,5 +74,7 @@ git clone https://github.com/xdpiqbx/minin-practice-js.git -b 007-site-construct
 `'.'` - (точка) в текущую папку
 
 ---
+
+[Дополнительные материалы](https://github.com/vladilenm/js-constructor)
 
 _P.S. Репозиторий просто по фану. Спасибо Владилену за его работу._
