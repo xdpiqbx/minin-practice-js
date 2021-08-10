@@ -27,6 +27,7 @@ Timecode:
 17. [Начинаем sidebar](https://youtu.be/0ViiJ8qTCFM?t=5467)
 18. [Обрабатываем submit](https://youtu.be/0ViiJ8qTCFM?t=5902)
 19. [Создаём App.js](https://youtu.be/0ViiJ8qTCFM?t=6649)
+20. [Сборка и деплой на firebase](https://youtu.be/0ViiJ8qTCFM?t=6802)
 
 ---
 
