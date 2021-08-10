@@ -13,13 +13,6 @@ export function col(content) {
 }
 
 export function css(styles = {}) {
-  const styleToString = (key) => `${key}:${styles[key]}`;
-  return Object.keys(styles).map(styleToString).join(';');
-
-  // const keys = Object.keys(styles);
-  // return keys
-  //   .map((key) => {
-  //     return `${key}: ${styles[key]}`;
-  //   })
-  //   .join(';');
+  const styleToString = (key) => `${key}: ${styles[key]}`;
+  return Object.keys(styles).map(styleToString).join('; ');
 }

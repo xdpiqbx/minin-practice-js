@@ -1,25 +1,7 @@
 import { model } from './model';
-// import { templates } from './templates';
+import { Site } from './classes/site';
 import './styles/main.css';
 
-const $site = document.querySelector('#site');
+const site = new Site('#site');
 
-model.forEach((block) => {
-  // switch (block.type) {
-  //   case 'title':
-  //     html = templates.title(block.value);
-  //     break;
-  //   case 'text':
-  //     html = templates.text(block.value);
-  //     break;
-  //   case 'columns':
-  //     html = templates.columns(block.value);
-  //     break;
-  //   case 'image':
-  //     html = templates.image(block.value);
-  //     break;
-  // }
-  // if (templates[type]) {
-  $site.insertAdjacentHTML('beforeend', block.toHTML());
-  // }
-});
+site.render(model);
