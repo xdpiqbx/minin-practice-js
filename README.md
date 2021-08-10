@@ -23,6 +23,7 @@ Timecode:
 13. [Дописать стили для картинки](https://youtu.be/0ViiJ8qTCFM?t=4160)
 14. [Переписываем модель на класы](https://youtu.be/0ViiJ8qTCFM?t=4288)
 15. [Определяем шаблоны в класах](https://youtu.be/0ViiJ8qTCFM?t=4845)
+16. [Начинаем sidebar](https://youtu.be/0ViiJ8qTCFM?t=5242)
 
 ---
 
