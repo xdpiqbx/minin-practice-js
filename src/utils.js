@@ -13,6 +13,9 @@ export function col(content) {
 }
 
 export function css(styles = {}) {
+  if (typeof styles === 'string') {
+    return styles;
+  }
   const styleToString = (key) => `${key}: ${styles[key]}`;
   return Object.keys(styles).map(styleToString).join('; ');
 }

@@ -26,6 +26,7 @@ Timecode:
 16. [Рефактор insex.js + class Site](https://youtu.be/0ViiJ8qTCFM?t=5242)
 17. [Начинаем sidebar](https://youtu.be/0ViiJ8qTCFM?t=5467)
 18. [Обрабатываем submit](https://youtu.be/0ViiJ8qTCFM?t=5902)
+19. [Создаём App.js](https://youtu.be/0ViiJ8qTCFM?t=6649)
 
 ---
 
