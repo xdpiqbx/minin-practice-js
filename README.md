@@ -25,6 +25,7 @@ Timecode:
 15. [Определяем шаблоны в класах](https://youtu.be/0ViiJ8qTCFM?t=4845)
 16. [Рефактор insex.js + class Site](https://youtu.be/0ViiJ8qTCFM?t=5242)
 17. [Начинаем sidebar](https://youtu.be/0ViiJ8qTCFM?t=5467)
+18. [Обрабатываем submit](https://youtu.be/0ViiJ8qTCFM?t=5902)
 
 ---
 
