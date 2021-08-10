@@ -23,7 +23,7 @@ function image(value, options) {
   );
 }
 
-export const tplts = {
+export const templates = {
   title,
   text,
   columns,

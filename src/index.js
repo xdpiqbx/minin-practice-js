@@ -1,5 +1,5 @@
 import { model } from './model';
-import { tplts } from './templates';
+import { templates } from './templates';
 import './styles/main.css';
 
 const $site = document.querySelector('#site');
@@ -7,22 +7,22 @@ const $site = document.querySelector('#site');
 model.forEach(({ type, value, options }) => {
   // switch (block.type) {
   //   case 'title':
-  //     html = tplts.title(block.value);
+  //     html = templates.title(block.value);
   //     break;
   //   case 'text':
-  //     html = tplts.text(block.value);
+  //     html = templates.text(block.value);
   //     break;
   //   case 'columns':
-  //     html = tplts.columns(block.value);
+  //     html = templates.columns(block.value);
   //     break;
   //   case 'image':
-  //     html = tplts.image(block.value);
+  //     html = templates.image(block.value);
   //     break;
   // }
-  if (tplts[type]) {
+  if (templates[type]) {
     $site.insertAdjacentHTML(
       'beforeend',
-      tplts[type](value, options)
+      templates[type](value, options)
     );
   }
 });
